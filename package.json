@@ -1,0 +1,46 @@
+{
+  "name": "espower-cli",
+  "description": "command line tool for espower",
+  "version": "0.1.0",
+  "author": {
+    "name": "Takuto Wada",
+    "email": "takuto.wada@gmail.com",
+    "url": "https://github.com/twada"
+  },
+  "bin": {
+    "espower": "./bin/cmd.js"
+  },
+  "bugs": "https://github.com/twada/espower-cli/issues",
+  "dependencies": {
+    "concat-stream": "^1.4.6",
+    "espower-source": "^0.10.0"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "README.md",
+    "bin",
+    "index.js",
+    "package.json",
+    "test"
+  ],
+  "homepage": "https://github.com/twada/espower-cli",
+  "keywords": [
+    "power-assert",
+    "assert",
+    "assertion",
+    "test",
+    "testing"
+  ],
+  "license": {
+    "type": "MIT",
+    "url": "http://twada.mit-license.org/"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/twada/espower-cli.git"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
