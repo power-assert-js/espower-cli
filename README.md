@@ -1,7 +1,7 @@
 espower-cli
 ================================
 
-Command line tool for espower.
+Command line tool for power-assert
 
 [![Build Status][travis-image]][travis-url]
 [![NPM version][npm-image]][npm-url]
@@ -12,7 +12,7 @@ Command line tool for espower.
 DESCRIPTION
 ---------------------------------------
 
-espower-cli provides an `espower` command which transforms source code by using [espower](http://github.com/twada/espower).
+espower-cli provides an `espower` command which transforms test code by using [espower](http://github.com/twada/espower).
 
 
 USAGE

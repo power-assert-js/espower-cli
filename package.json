@@ -1,6 +1,6 @@
 {
   "name": "espower-cli",
-  "description": "command line tool for espower",
+  "description": "Command line tool for power-assert",
   "version": "0.0.0",
   "author": {
     "name": "Takuto Wada",
