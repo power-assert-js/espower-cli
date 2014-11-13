@@ -23,7 +23,6 @@
     "CHANGELOG.md",
     "README.md",
     "bin",
-    "index.js",
     "package.json",
     "test"
   ],
