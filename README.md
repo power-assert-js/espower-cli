@@ -12,7 +12,7 @@ Command line tool for power-assert
 DESCRIPTION
 ---------------------------------------
 
-espower-cli provides an `espower` command which transforms test code by using [espower](http://github.com/twada/espower).
+espower-cli provides an `espower` command which transforms test code for [power-assert](http://github.com/twada/power-assert).
 
 
 CHANGELOG
