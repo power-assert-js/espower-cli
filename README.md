@@ -14,16 +14,26 @@ DESCRIPTION
 
 espower-cli provides an `espower` command which transforms source code by using [espower](http://github.com/twada/espower).
 
-COMMAND LINE USAGE EXAMPLE
+
+USAGE
 ---------------------------------------
 
 ```
-espower test.js > test.espowered.js 
+espower test/some_test.js > build/test/some_test.js 
 ```
 
+
+OPTIONS
+---------------------------------------
+
+### --config, -c
+
+Specify JSON file containing options for `espower` module (See [espower.defaultOptions()](https://github.com/twada/espower#var-options--espowerdefaultoptions))
+
 ```
-cat test.js | espower > test.espowered.js 
+espower --config test/espower_config.json test/some_test.js > build/test/some_test.js 
 ```
+
 
 INSTALL
 ---------------------------------------
