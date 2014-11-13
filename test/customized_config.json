@@ -1,0 +1,7 @@
+{
+    "patterns": [
+        "refute(actual, [message])",
+        "refute.same(actual, expected, [message])",
+        "refute.isNull(object, [message])"
+    ]
+}

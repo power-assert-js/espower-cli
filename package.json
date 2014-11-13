@@ -13,7 +13,8 @@
   "bugs": "https://github.com/twada/espower-cli/issues",
   "dependencies": {
     "concat-stream": "^1.4.6",
-    "espower-source": "^0.10.0"
+    "espower-source": "^0.10.0",
+    "minimist": "^1.1.0"
   },
   "files": [
     "CHANGELOG.md",
