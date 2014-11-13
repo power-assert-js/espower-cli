@@ -15,6 +15,11 @@ DESCRIPTION
 espower-cli provides an `espower` command which transforms test code by using [espower](http://github.com/twada/espower).
 
 
+CHANGELOG
+---------------------------------------
+See [CHANGELOG](https://github.com/twada/espower-cli/blob/master/CHANGELOG.md)
+
+
 USAGE
 ---------------------------------------
 
