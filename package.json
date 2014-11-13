@@ -16,6 +16,9 @@
     "espower-source": "^0.10.0",
     "minimist": "^1.1.0"
   },
+  "devDependencies": {
+    "mocha": "^2.0.1"
+  },
   "files": [
     "CHANGELOG.md",
     "README.md",
@@ -41,6 +44,6 @@
     "url": "git://github.com/twada/espower-cli.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha --reporter dot"
   }
 }
