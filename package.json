@@ -36,7 +36,6 @@
     "type": "MIT",
     "url": "http://twada.mit-license.org/"
   },
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git://github.com/twada/espower-cli.git"
