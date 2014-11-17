@@ -18,18 +18,22 @@ var fs = require('fs');
 var minimist = require('minimist');
 var argv = minimist(process.argv.slice(2), {
     string: [
-        'config'
+        'config',
+        'incoming-sourcemap'
     ],
     alias: {
-        c: 'config'
+        c: 'config',
+        s: 'incoming-sourcemap'
     },
     default: {
-        config: null
+        config: null,
+        "incoming-sourcemap": null
     }
 });
 
 var file = argv._[0];
-var input, filepath, config;
+var input, filepath;
+
 if (file && file !== '-') {
     filepath = file;
     input = fs.createReadStream(file);
@@ -37,8 +41,10 @@ if (file && file !== '-') {
     input = process.stdin;
 } 
 
-if (argv.config) {
-    config = JSON.parse(fs.readFileSync(argv.config, 'utf8'));
+var config = argv.config ? JSON.parse(fs.readFileSync(argv.config, 'utf8')) : {};
+
+if (argv['incoming-sourcemap']) {
+    config.sourceMap = JSON.parse(fs.readFileSync(argv['incoming-sourcemap'], 'utf8'));
 }
 
 input.pipe(concat(function(buf) {

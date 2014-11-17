@@ -39,6 +39,14 @@ Specify JSON file containing options for `espower` module (See [espower.defaultO
 espower --config test/espower_config.json test/some_test.js > build/test/some_test.js 
 ```
 
+### --incoming-sourcemap, -s
+
+Specify SourceMap file
+
+```
+espower --incoming-sourcemap test/some_test.js.map test/some_test.js > build/test/some_test.js 
+```
+
 
 INSTALL
 ---------------------------------------
