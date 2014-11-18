@@ -20,7 +20,7 @@ describe('espower-cli', function () {
         }));
     });
 
-    describe('--config option', function () {
+    describe('option for configuration', function () {
         beforeEach(function () {
             var expected = fs.readFileSync('test/expected/customized.js', 'utf8');
             this.assertOutput = function (args, done) {
@@ -51,7 +51,7 @@ describe('espower-cli', function () {
         });
     });
 
-    describe('--incoming-sourcemap option', function () {
+    describe('option for SourceMap', function () {
         beforeEach(function () {
             var expected = fs.readFileSync('test/expected/merged-sourcemap.js', 'utf8');
             this.assertOutput = function (args, done) {
@@ -67,6 +67,21 @@ describe('espower-cli', function () {
         });
         it('--incoming-sourcemap option to specify SourceMap file', function (done) {
             this.assertOutput(['--incoming-sourcemap', 'test/fixtures/separated-sourcemap.js.map', 'test/fixtures/separated-sourcemap.js'], done);
+        });
+        it('--incoming-sourcemap option at the end', function (done) {
+            this.assertOutput(['test/fixtures/separated-sourcemap.js', '--incoming-sourcemap', 'test/fixtures/separated-sourcemap.js.map'], done);
+        });
+        it('--incoming-sourcemap=sourceMapFile', function (done) {
+            this.assertOutput(['--incoming-sourcemap=test/fixtures/separated-sourcemap.js.map', 'test/fixtures/separated-sourcemap.js'], done);
+        });
+        it('--incoming-sourcemap=sourceMapFile at the end', function (done) {
+            this.assertOutput(['test/fixtures/separated-sourcemap.js', '--incoming-sourcemap=test/fixtures/separated-sourcemap.js.map'], done);
+        });
+        it('short option -s to specify SourceMap file', function (done) {
+            this.assertOutput(['-s', 'test/fixtures/separated-sourcemap.js.map', 'test/fixtures/separated-sourcemap.js'], done);
+        });
+        it('short option -s at the end', function (done) {
+            this.assertOutput(['test/fixtures/separated-sourcemap.js', '-s', 'test/fixtures/separated-sourcemap.js.map'], done);
         });
     });
 });
