@@ -27,6 +27,14 @@ USAGE
 espower test/some_test.js > build/test/some_test.js 
 ```
 
+### sourcemaps
+
+`espower-cli` appends SourceMap comment at the bottom of generated code. If you want to separate the comment off, use [exorcist](https://github.com/thlorenz/exorcist).
+
+```
+espower test/some_test.js | exorcist build/test/some_test.js.map > build/test/some_test.js 
+```
+
 
 OPTIONS
 ---------------------------------------
