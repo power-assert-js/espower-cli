@@ -10,7 +10,7 @@
   "bin": {
     "espower": "./bin/cmd.js"
   },
-  "bugs": "https://github.com/twada/espower-cli/issues",
+  "bugs": "https://github.com/power-assert-js/espower-cli/issues",
   "dependencies": {
     "concat-stream": "^1.4.6",
     "espower-source": "^0.10.0",
@@ -26,7 +26,7 @@
     "package.json",
     "test"
   ],
-  "homepage": "https://github.com/twada/espower-cli",
+  "homepage": "https://github.com/power-assert-js/espower-cli",
   "keywords": [
     "power-assert",
     "assert",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/twada/espower-cli.git"
+    "url": "git://github.com/power-assert-js/espower-cli.git"
   },
   "scripts": {
     "test": "mocha --reporter dot"

@@ -12,12 +12,12 @@ Command line tool for power-assert
 DESCRIPTION
 ---------------------------------------
 
-espower-cli provides an `espower` command which transforms test code for [power-assert](http://github.com/twada/power-assert).
+espower-cli provides an `espower` command which transforms test code for [power-assert](http://github.com/power-assert-js/power-assert).
 
 
 CHANGELOG
 ---------------------------------------
-See [CHANGELOG](https://github.com/twada/espower-cli/blob/master/CHANGELOG.md)
+See [CHANGELOG](https://github.com/power-assert-js/espower-cli/blob/master/CHANGELOG.md)
 
 
 USAGE
@@ -41,7 +41,7 @@ OPTIONS
 
 ### --config, -c
 
-Specify JSON file containing options for `espower` module (See [espower.defaultOptions()](https://github.com/twada/espower#var-options--espowerdefaultoptions))
+Specify JSON file containing options for `espower` module (See [espower.defaultOptions()](https://github.com/power-assert-js/espower#var-options--espowerdefaultoptions))
 
 ```
 espower --config test/espower_config.json test/some_test.js > build/test/some_test.js 
@@ -83,11 +83,11 @@ Licensed under the [MIT](http://twada.mit-license.org/) license.
 [npm-url]: https://npmjs.org/package/espower-cli
 [npm-image]: https://badge.fury.io/js/espower-cli.svg
 
-[travis-url]: http://travis-ci.org/twada/espower-cli
-[travis-image]: https://secure.travis-ci.org/twada/espower-cli.svg?branch=master
+[travis-url]: http://travis-ci.org/power-assert-js/espower-cli
+[travis-image]: https://secure.travis-ci.org/power-assert-js/espower-cli.svg?branch=master
 
-[depstat-url]: https://gemnasium.com/twada/espower-cli
-[depstat-image]: https://gemnasium.com/twada/espower-cli.svg
+[depstat-url]: https://gemnasium.com/power-assert-js/espower-cli
+[depstat-image]: https://gemnasium.com/power-assert-js/espower-cli.svg
 
 [license-url]: http://twada.mit-license.org/
 [license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg

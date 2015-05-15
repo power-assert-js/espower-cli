@@ -3,7 +3,7 @@
 /**
  * espower-cli
  *
- * https://github.com/twada/espower-cli
+ * https://github.com/power-assert-js/espower-cli
  *
  * Copyright (c) 2014 Takuto Wada
  * Licensed under the MIT license.
