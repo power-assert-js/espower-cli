@@ -12,12 +12,12 @@
   },
   "bugs": "https://github.com/power-assert-js/espower-cli/issues",
   "dependencies": {
-    "concat-stream": "^1.4.6",
+    "concat-stream": "^1.5.0",
     "espower-source": "^0.10.0",
-    "minimist": "^1.1.0"
+    "minimist": "^1.1.1"
   },
   "devDependencies": {
-    "mocha": "^2.0.1"
+    "mocha": "^2.2.5"
   },
   "files": [
     "CHANGELOG.md",
