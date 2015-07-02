@@ -34,10 +34,7 @@
     "test",
     "testing"
   ],
-  "license": {
-    "type": "MIT",
-    "url": "http://twada.mit-license.org/"
-  },
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git://github.com/power-assert-js/espower-cli.git"
