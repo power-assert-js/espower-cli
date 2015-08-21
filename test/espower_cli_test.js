@@ -20,6 +20,15 @@ describe('espower-cli', function () {
         }));
     });
 
+    it('when filepath is absolute', function (done) {
+        var expected = fs.readFileSync('test/expected/example.js', 'utf8');
+        var proc = child.spawn(this.executable, [path.join(process.cwd(), 'test', 'fixtures', 'example.js')]);
+        proc.stdout.pipe(concat(function (output) {
+            assert.equal(output.toString('utf8'), expected);
+            done();
+        }));
+    });
+
     describe('option for configuration', function () {
         beforeEach(function () {
             var expected = fs.readFileSync('test/expected/customized.js', 'utf8');

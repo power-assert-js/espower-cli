@@ -42,6 +42,7 @@ if (file && file !== '-') {
 } 
 
 var config = argv.config ? JSON.parse(fs.readFileSync(argv.config, 'utf8')) : {};
+config.sourceRoot = config.sourceRoot || process.cwd();
 
 if (argv['incoming-sourcemap']) {
     config.sourceMap = JSON.parse(fs.readFileSync(argv['incoming-sourcemap'], 'utf8'));
