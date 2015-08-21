@@ -1,3 +1,13 @@
+## [1.0.0](https://github.com/power-assert-js/espower-cli/releases/tag/v1.0.0) (2015-08-21)
+
+
+#### Features
+
+* **espower-cli:**
+  * transfer to power-assert-js organization ([41b66c96](https://github.com/power-assert-js/espower-cli/commit/41b66c96e40aca92955dfe192b3d0d40ecd5a1a8))
+  * [use process.cwd() for default sourceRoot](https://github.com/power-assert-js/espower-cli/pull/2)
+
+
 ## [0.2.0](https://github.com/power-assert-js/espower-cli/releases/tag/v0.2.0) (2014-11-21)
 
 
