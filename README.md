@@ -12,7 +12,7 @@ Command line tool for power-assert
 DESCRIPTION
 ---------------------------------------
 
-espower-cli provides an `espower` command which transforms test code for [power-assert](http://github.com/power-assert-js/power-assert).
+espower-cli provides an `espower` command which transforms test code for [power-assert](https://github.com/power-assert-js/power-assert).
 
 
 CHANGELOG
@@ -72,22 +72,22 @@ and/or globally.
 
 AUTHOR
 ---------------------------------------
-* [Takuto Wada](http://github.com/twada)
+* [Takuto Wada](https://github.com/twada)
 
 
 LICENSE
 ---------------------------------------
-Licensed under the [MIT](http://twada.mit-license.org/) license.
+Licensed under the [MIT](http://twada.mit-license.org/2014-2016) license.
 
 
 [npm-url]: https://npmjs.org/package/espower-cli
 [npm-image]: https://badge.fury.io/js/espower-cli.svg
 
-[travis-url]: http://travis-ci.org/power-assert-js/espower-cli
+[travis-url]: https://travis-ci.org/power-assert-js/espower-cli
 [travis-image]: https://secure.travis-ci.org/power-assert-js/espower-cli.svg?branch=master
 
 [depstat-url]: https://gemnasium.com/power-assert-js/espower-cli
 [depstat-image]: https://gemnasium.com/power-assert-js/espower-cli.svg
 
-[license-url]: http://twada.mit-license.org/
-[license-image]: http://img.shields.io/badge/license-MIT-brightgreen.svg
+[license-url]: http://twada.mit-license.org/2014-2016
+[license-image]: https://img.shields.io/badge/license-MIT-brightgreen.svg
