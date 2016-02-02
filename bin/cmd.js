@@ -5,9 +5,9 @@
  *
  * https://github.com/power-assert-js/espower-cli
  *
- * Copyright (c) 2014 Takuto Wada
+ * Copyright (c) 2014-2016 Takuto Wada
  * Licensed under the MIT license.
- *   http://twada.mit-license.org/
+ *   http://twada.mit-license.org/2014-2016
  */
 'use strict';
 
