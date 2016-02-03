@@ -23,8 +23,7 @@
     "CHANGELOG.md",
     "README.md",
     "bin",
-    "package.json",
-    "test"
+    "package.json"
   ],
   "homepage": "https://github.com/power-assert-js/espower-cli",
   "keywords": [
