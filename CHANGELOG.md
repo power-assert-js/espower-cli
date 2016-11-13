@@ -1,3 +1,12 @@
+## [1.1.0](https://github.com/power-assert-js/espower-cli/releases/tag/v1.1.0) (2016-11-13)
+
+
+#### Features
+
+* **espower-cli:**
+  * [Enable transparent assertion enhancement, embed value capturing helper into transpiled code (by upgrading espower-source to 2.0.0)](https://github.com/power-assert-js/espower-cli/pull/3)
+
+
 ## [1.0.0](https://github.com/power-assert-js/espower-cli/releases/tag/v1.0.0) (2015-08-21)
 
 
